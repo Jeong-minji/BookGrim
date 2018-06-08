@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>BookGrim_Login</title>
+    <link rel="stylesheet" href="../css/dictionary.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>    
+        <h1 id="site_title">BookGrim</h1>
+        <a href="contact.html" class="menu" style="margin-right: 40px">Contact</a>
+        <a href="dictionary.html" class="menu">Dictionary</a>
+        <a href="login.html" class="menu">Login</a>
+        <a href="main.html" class="menu">Home</a>
+    </header>
+
+    <div id="gate">
+        <div id="scroll_area">
+            <div class="card">
+                <h3 class="card_title">&lt; Demian &gt;</h3>
+                <div class="card_illus" style="background-image: url('../img/Demian.png')"></div>
+                <div class="card_text">
+                        싱클레어는 부모의 따뜻한 보살핌과 기독교 신앙의 가르침 안에서 자라는 평범한 소년이었다. 그는 부모가 품어주는 밝은 세계가 주는 편안함 속에서 안락을 누렸지만, 동시에 부모의 세계 밖에 있는 어둠의 세계에도 두려움과 함께 호기심을 갖고 접촉하고 있었다. 그곳은 때로는 욕설과 싸움이 있었지만, 때로는 솔직한 감정의 교류가 그를 유혹하고 있었다. 싱클레어는 자신의 환경으로부터 밝음과 어둠의 두 세계를 발견하고 모두 마음에 품으면서, 어느 곳에도 온전히 속하지 못한 채 갈등하게 된다.
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card_title">&lt; 오멜라스를 떠나는 사람들 &gt;</h3>
+                <div class="card_illus" style="background-image: url('../img/Omelas.jpg')"></div>
+                <div class="card_text">
+                        가상의 유토피아적인 도시 오멜라스의 행복과, 그 이면에 존재하는 어둠에 대한 이야기를 다루고 있다. 행복하게 번영하는 여러 모로 이상적인 도시 오멜라스, 그 도시의 행복은 불가사의하게도 지하에 갇혀서 나가지 못하고 고통받는 어떤 아이의 희생이 있어야만 성립하는 것이다. 즉, 오멜라스가 지상낙원으로 존재하기 위해서는 그 아이가 계속 지하실에서 고통받고 있어야 하며 누구라도 그 아이를 조금이나마 도와줄 경우 오멜라스가 누리는 행복과 번영은 바로 그 순간에 자취를 감추게 된다는 것.
+                </div>
+            </div>
+
+            <div class="card" style="margin-right: 27%;">
+                <h3 class="card_title">&lt; 빨간모자 &gt;</h3>
+                <div class="card_illus" style="background-image: url('../img/redhat.png')"></div>
+                <div class="card_text">
+                        어느 날, 소녀의 엄마가 그녀에게 말했습니다. "빨간 모자, 여기로 와보렴. 여기 케이크 한 조각과 와인 한 병을 할머니에게 가져다 주렴. 할머니가 편찮으시니까 네가 가면 기뻐하실 거야. 더워지기 전에 출발하렴. 그리고 할머니 댁에 갈 때, 조심해서 가고 길에서 벗어나지 마렴. 그렇지 않으면 네가 넘어져서 병을 깨뜨릴 거야. 그러면 할머니는 아무것도 받지 못하신단다. 그리고 할머니 방에 가면, 먼저 인사하고 방 안 구석구석을 살펴보는 것을 잊지 말아라!"
+                </div>
+            </div>
+        </div>
+
+        <button id="btn_prev" class="btns" onclick="scroll_left()" style="left: 46vw;">◀</button>
+        <button id="btn_next" class="btns" onclick="scroll_right()" style="left: 52vw;">▶</button>
+    </div>
+
+    <script src="../js/dictionary.js"></script>
+</body>
+</html>

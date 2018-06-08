@@ -1,0 +1,160 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 11.9%
+}
+
+#site_title {
+    display: inline-block;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(20, 94, 20);
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 18px;
+    float: right;
+    margin: 2.6% 2% 0% 2%;
+}
+
+#gate {
+    width: 100%;
+    height: 88.1%;
+    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0.3)), url("../img/windowbook.jpg");
+    background-size: cover;
+}
+
+#book_area {
+    width: 54%;
+    height: 50%;
+    top: 31%;
+    left: 23%;
+    position: absolute;
+}
+
+.page {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.page_title {
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-left: 10%;
+}
+
+#login {
+    background: rgba(227, 186, 179, 0.6);
+    animation-name: flip_left;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flip_left {
+    from {
+        transform: rotateX(90deg);
+    } to {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes flip_right {
+    from {
+        transform: rotateY(-90deg);
+    } to {
+        transform: rotateY(0deg);
+    }
+}
+
+#signup {
+    background: rgba(135, 78, 76, 0.6);
+    animation-name: flip_right;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#login .input_style {
+    background: transparent;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom:1px solid rgba(0, 0, 0, 0.8);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 1% 1% 1% 2%;
+    width: 48%;
+    height: 6%;
+    margin-left: 10%;
+    font-size: 16px;
+}
+
+#signup .input_style {
+    background: transparent;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom:1px solid rgba(255, 255, 255, 0.8);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 1% 1% 1% 2%;
+    width: 48%;
+    height: 6%;
+    margin-left: 10%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn_submit {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0px solid rgb(40, 89, 71);
+    font-weight: lighter;
+    padding: 3% 6% 3% 6%;
+    color: rgb(40, 89, 71);
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: block;
+    margin-left: 40%;
+}
+
+.btn_submit:hover {
+    cursor: pointer;
+}
+
+#login ::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#signup ::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+    outline: none;
+}

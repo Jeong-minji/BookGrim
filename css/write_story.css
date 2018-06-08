@@ -1,0 +1,51 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 11.9%
+}
+
+#site_title {
+    display: inline-block;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(20, 94, 20);
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 18px;
+    float: right;
+    margin: 2.6% 2% 0% 2%;
+}
+
+#gate {
+    width: 100%;
+    height: 88.1%;
+    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.35)), url("../img/typing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

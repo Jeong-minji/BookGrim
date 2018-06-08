@@ -1,0 +1,102 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 11.9%
+}
+
+#site_title {
+    display: inline-block;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(20, 94, 20);
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 18px;
+    float: right;
+    margin: 2.6% 2% 0% 2%;
+}
+
+#gate {
+    width: 100%;
+    /* height: 88.1%; */
+    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.5)), url("../img/sunsetbook.jpg");
+    animation-name: back_roll;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes back_roll {
+    from {
+        height: 0%;
+        opacity: 0;
+    } to {
+        height: 88.1%;
+        opacity: 1;
+    }
+}
+
+#gate_title {
+    font-weight: lighter;
+    color: white;
+    font-size: 90px;
+    display: inline-block;
+    letter-spacing: 8px;
+    margin-left: 32%;
+    margin-top: 14%;
+}
+
+#gate_sub_title {
+    font-weight: lighter;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin-left: 44%;
+    margin-top: -2%;
+}
+
+#btn_tuto {
+    border: 1px solid white;
+    padding: 0.8% 2.2% 0.8% 2.2%;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: 45%;
+    text-align: center;
+    transition: ease-out 0.5s;
+}
+
+#btn_tuto:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    transition: ease-in 0.5s;
+}
